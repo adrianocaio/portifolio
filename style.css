@@ -23,7 +23,7 @@ html{
     transition: all 0.3s ease;
 }
 .navbar.sticky{
-     background: #00804b;
+     background: #2D2E2E;
      padding: 15px 0;
 }
 .navbar .max-width{
@@ -37,7 +37,7 @@ html{
     font-weight: 500;
 }
 .navbar .logo a span{
-    color: #00804b;
+    color: #2D2E2E;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -52,10 +52,13 @@ html{
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
-    transition: color 0.3s ease;
+    transition: color 0.5s ease;
+    
 }
 .navbar .menu li a:hover{
-    color: #00804b;
+    color: white;
+    background-color:#2D2E2E;
+    border-radius: 3px;
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -63,12 +66,13 @@ html{
 /*  Home   inicio  */
 .home{
     display: flex;
-    background: url(image/banner.png) no-repeat;
+    background: url(image/photo_2022-07-20_22-30-11.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
     color: #fff;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
+    background-position: center left;
 }
 .home .max-width{
     margin: auto 0 auto 40px;
@@ -86,18 +90,18 @@ html{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color:#00804b ;
+    color: #2D2E2E;
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background: #00804b;
+    background: #2D2E2E;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #00804b;
+    border: 2px solid #BCABAE;
 }
 .home .home-content a:hover{
     color: #00804b;
